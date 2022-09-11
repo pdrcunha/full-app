@@ -1,12 +1,29 @@
 {
   "type": "module",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongoose": "^6.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "startServer": "nodemon ./server.js"
-  }
+    "startServer": "nodemon ./server.js",
+    "start": "node server.js"
+  },
+  "name": "full-app",
+  "description": "A ideia e criar uma loja inteira funcional consumindo uma propia api no heroku é hospedada no github pages.\r Seu banco sera será feito no mongoDB, na nuvem provavelmente na atlas.\r *Lembrando que o projeto está em contrução, além de ser totalmente didatico.*",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrcunha/full-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdrcunha/full-app/issues"
+  },
+  "homepage": "https://github.com/pdrcunha/full-app#readme"
 }

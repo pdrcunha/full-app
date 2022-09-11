@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
-
-mongoose.connect(`mongodb+srv://jiraya00:n2s2hwyn@products.iejyytf.mongodb.net/e-commerce?retryWrites=true&w=majority`)
+import  dotenv from "dotenv";
+dotenv.config();
+mongoose.connect(process.env.BD_CONFIG)
 
 const db=mongoose.connection;
 
