@@ -2,7 +2,10 @@ import express from "express";
 import produtosController from "../controller/produtosController.js";
 const router=express.Router();
 
-router.get("/produtos",produtosController.listarProdutos);
-router.post("/produtos",produtosController.cadatrarProdutos);
+router.get("/produtos",produtosController.listarProdutos)
+.post("/produtos",produtosController.cadatrarProdutos)
+.put("/produtos/:id",produtosController.atualizarProduto)
+.get("/produtos/:id",produtosController.listarProdutosPorID)
+.delete("/produtos/:id",produtosController.deletarProduto)
 
 export default router;
