@@ -6,7 +6,9 @@ const produtoSchema = new mongoose.Schema(
         produto:{type: String, required: true},
         descricao:{type: String, required: true},
         price: {type: Number},
-        imagem: {type: String, required: true}
+        categoria: {type: String},
+        imagem: {type: String, required: true},
+        ativo: {type: Boolean, required: true}
     }
 )
 const produtos= mongoose.model("produtos", produtoSchema);
