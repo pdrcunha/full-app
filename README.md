@@ -27,4 +27,4 @@ delete"/usuarios/:id", deletar usuários.<br>
 Tudo já esta pre configurado, só precisa criar um arquivo .env no diretório principal.<br>
 O conteúdo do diretório deve ser:<br>
 <br>
-BD_CONFIG="mongodb+srv://<usuario-aqui&gt;:<senha-aqui&gt;@products.iejyytf.mongodb.net/<nome-da-collection>?retryWrites=true&w=majority"<br>
+BD_CONFIG="mongodb+srv://[usuario-aqui]&gt;:[senha-aqui]&gt;@products.iejyytf.mongodb.net/[nome-da-collection-aqui]?retryWrites=true&w=majority"
