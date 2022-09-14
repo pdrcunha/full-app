@@ -4,7 +4,7 @@ A api foi feita utilizando EXPRESS no Node JS. Nela é possível cadastrar, remo
 O banco e o mongoDB hospedado no atlas.<br>
 
 *Projeto totalmente didatico.*<br>
-*Uma copía da Api está hospedada no heroku link: https://first-api00.herokuapp.com/ *<br>
+*Uma copía da Api está hospedada no heroku link: https://first-api00.herokuapp.com/*<br>
 *Este link aceita requisições de todos os IPS, use com sabedoria.*<br>
 
 ## Rotas
